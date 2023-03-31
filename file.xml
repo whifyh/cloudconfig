@@ -1,0 +1,1414 @@
+
+<body>
+    <div style="overflow-x: hidden; ">
+        	<div class="hidden-xs">
+		<div id="main-nav" style="z-index: 10000 !important; position: static !important" class="main-nav hidden-xs">
+  <a href="/" style="padding-right: 2.5%; color: white; font-size: 1.4em;">
+    <span style="color: crimson">H</span>anime1<span style="color: crimson">.</span>me
+</a>
+<a class="nav-item hidden-xs nav-desktop-items active" href="https://hanime1.me/search?genre=裏番">裏番</a>
+<a class="nav-item hidden-xs hidden-sm nav-desktop-items " href="/previews/202303">新番預告</a>
+<a class="nav-item hidden-xs nav-desktop-items " href="https://hanime1.me/search?genre=泡麵番">泡麵番</a>
+<a class="nav-item hidden-xs nav-desktop-items " href="https://hanime1.me/search?genre=Motion+Anime">Motion Anime</a>
+<a class="nav-item hidden-xs nav-desktop-items " href="https://hanime1.me/search?genre=3D動畫">3D動畫</a>
+<a class="nav-item hidden-xs nav-desktop-items " href="https://hanime1.me/search?genre=同人作品">同人作品</a>
+<a class="nav-item hidden-xs nav-desktop-items nav-desktop-cosplay-item " href="https://hanime1.me/search?genre=Cosplay">Cosplay</a>
+<a class="nav-item hidden-xs hidden-sm nav-desktop-items" href="https://hanime1.me/comics">H漫畫</a>
+<!-- <a class="nav-item hidden-xs hidden-sm" href="https://hanime1.me/playlists">我的清單</a> -->
+
+    <div id="user-modal-trigger" style="padding-right: 0px; cursor: pointer;" class="nav-icon pull-right no-select" data-toggle="modal" data-target="#user-modal">
+        <img style="width: 32px; border-radius: 4px;" src="https://lh3.googleusercontent.com/a-/AOh14GixCT-7aBAVL-dJ4GSX8HtVrTtJ7D5WNesKlauc=s96-c">
+        <i class="material-icons" style="vertical-align: middle; margin-top: 0px; margin-left: 0px; margin-right: -7px">arrow_drop_down</i>
+    </div>
+
+    <div id="user-modal" class="modal" role="dialog">
+      <div id="user-modal-panel" class="modal-dialog modal-sm" style="position: absolute; top: 38px;; right: calc(4% - 1px);">
+        <div class="modal-content" style="border-radius: 0px; background-color: #222222; color: white;">
+            <div id="user-modal-dp-wrapper" class="no-select">
+    <img style="width: 45px; border-radius: 50%; display: inline-block;" src="https://lh3.googleusercontent.com/a-/AOh14GixCT-7aBAVL-dJ4GSX8HtVrTtJ7D5WNesKlauc=s96-c">
+    <div style="display: inline-block; vertical-align: middle; margin-left: 15px;">
+        <h5 id="user-modal-name" style="font-weight: bold;">斌</h5>
+        <h5 id="user-modal-created">加入於 1年前</h5>
+    </div>
+</div>
+<div class="no-select" style="padding: 9px 0px 0px 0px">
+    <a class="user-modal-link" href="https://hanime1.me/user/190266/edit">
+        <img src="https://cdn.jsdelivr.net/gh/guaishushukanlifan/Project-H@v2.0.0/asset/icon/account.png">
+        <h5>帳戶資料</h5>
+    </a>
+    <a class="user-modal-link" href="https://hanime1.me/playlists">
+        <img src="https://cdn.jsdelivr.net/gh/guaishushukanlifan/Project-H@v2.0.0/asset/icon/playlist.png">
+        <h5>我的清單</h5>
+    </a>
+    <a class="user-modal-link" href="https://hanime1.me/playlist?list=WL">
+        <img src="https://cdn.jsdelivr.net/gh/guaishushukanlifan/Project-H@v2.0.0/asset/icon/later.png">
+        <h5>稍後觀看</h5>
+    </a>
+    <a class="user-modal-link" href="https://hanime1.me/user/190266/edit">
+        <img src="https://cdn.jsdelivr.net/gh/guaishushukanlifan/Project-H@v2.0.0/asset/icon/language.png">
+        <h5>語言設定</h5>
+    </a>
+    <hr id="user-modal-hr">
+    <form action="https://hanime1.me/logout" method="POST">
+        <input type="hidden" name="_token" value="H1EXkPxhrkyhuyqRElh4YpfdP73nRJ47eR42Y0na">
+        <button id="user-modal-logout-btn" class="no-button-style user-modal-link" type="submit">
+            <img style="width: 19px; display: inline-block;" src="https://cdn.jsdelivr.net/gh/guaishushukanlifan/Project-H@v2.0.0/asset/icon/logout.png">
+            <h5 style="display: inline-block; margin-left: 15px; color: white; vertical-align: middle;">登出</h5>
+        </button>
+    </form>
+</div>        </div>
+      </div>
+    </div>
+
+<a class="nav-icon pull-right no-select" href="https://hanime1.me/search"><span style="vertical-align: middle; font-size: 28px;" class="material-icons-outlined">search</span></a>
+
+<a class="nav-icon pull-right no-select" href="/previews/202303"><span style="vertical-align: middle; font-size: 25px" class="material-icons-outlined">cast</span></a></div>
+
+<div id="main-nav-home" style="z-index: 10001; padding:0; padding-top: 3px; height: 48px; line-height: 40px; position: fixed; background-image: none; border-bottom: 1px solid #2b2b2b; margin-bottom: 0px; background-color: #141414;" class="hidden-sm hidden-md hidden-lg">
+  <div style="padding: 0 10px; margin-bottom: -10px;">
+  <a href="/" style="color: white; font-size: 1.4em; font-family: 'Encode Sans Condensed', sans-serif;">
+    <span style="color: crimson">H</span>anime1<span style="color: crimson">.</span>me
+  </a>
+
+      <div id="user-mobile-modal-trigger" style="padding-left: 12px; padding-right: 0px; cursor: pointer;" class="nav-icon pull-right" data-toggle="modal" data-target="#user-mobile-modal">
+      <img style="width: 26px; border-radius: 50%;" src="https://lh3.googleusercontent.com/a-/AOh14GixCT-7aBAVL-dJ4GSX8HtVrTtJ7D5WNesKlauc=s96-c">
+    </div>
+
+    <div style="z-index: 10001" id="user-mobile-modal" class="modal" role="dialog">
+      <div class="modal-dialog modal-sm" style="position: absolute; top: 87px;">
+        <div class="modal-content" style="border-radius: 3px; background-color: #222222; color: white;">
+          <div class="modal-header" style="border-bottom: 1px solid #333333; position: relative; height: 65px;">
+            <span class="material-icons pull-left no-select modal-close-btn" data-dismiss="modal">close</span>
+            <h4 class="modal-title" style="text-align: center; font-weight: bold; margin: 0; padding: 0; margin-top: 5px; font-size: 18px;">帳戶設定</h4>
+          </div>
+
+          <div class="modal-body" style="padding: 0; height: calc(100% - 65px); overflow-x: hidden;">
+            <div id="user-modal-dp-wrapper" class="no-select">
+    <img style="width: 45px; border-radius: 50%; display: inline-block;" src="https://lh3.googleusercontent.com/a-/AOh14GixCT-7aBAVL-dJ4GSX8HtVrTtJ7D5WNesKlauc=s96-c">
+    <div style="display: inline-block; vertical-align: middle; margin-left: 15px;">
+        <h5 id="user-modal-name" style="font-weight: bold;">斌</h5>
+        <h5 id="user-modal-created">加入於 1年前</h5>
+    </div>
+</div>
+<div class="no-select" style="padding: 9px 0px 0px 0px">
+    <a class="user-modal-link" href="https://hanime1.me/user/190266/edit">
+        <img src="https://cdn.jsdelivr.net/gh/guaishushukanlifan/Project-H@v2.0.0/asset/icon/account.png">
+        <h5>帳戶資料</h5>
+    </a>
+    <a class="user-modal-link" href="https://hanime1.me/playlists">
+        <img src="https://cdn.jsdelivr.net/gh/guaishushukanlifan/Project-H@v2.0.0/asset/icon/playlist.png">
+        <h5>我的清單</h5>
+    </a>
+    <a class="user-modal-link" href="https://hanime1.me/playlist?list=WL">
+        <img src="https://cdn.jsdelivr.net/gh/guaishushukanlifan/Project-H@v2.0.0/asset/icon/later.png">
+        <h5>稍後觀看</h5>
+    </a>
+    <a class="user-modal-link" href="https://hanime1.me/user/190266/edit">
+        <img src="https://cdn.jsdelivr.net/gh/guaishushukanlifan/Project-H@v2.0.0/asset/icon/language.png">
+        <h5>語言設定</h5>
+    </a>
+    <hr id="user-modal-hr">
+    <form action="https://hanime1.me/logout" method="POST">
+        <input type="hidden" name="_token" value="H1EXkPxhrkyhuyqRElh4YpfdP73nRJ47eR42Y0na">
+        <button id="user-modal-logout-btn" class="no-button-style user-modal-link" type="submit">
+            <img style="width: 19px; display: inline-block;" src="https://cdn.jsdelivr.net/gh/guaishushukanlifan/Project-H@v2.0.0/asset/icon/logout.png">
+            <h5 style="display: inline-block; margin-left: 15px; color: white; vertical-align: middle;">登出</h5>
+        </button>
+    </form>
+</div>            <hr style="margin: 0; border-color: #333333;">
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  <a class="nav-icon pull-right" href="https://hanime1.me/search">
+    <img style="margin-top: -2px; margin-right: 1px;" height="20" src="https://cdn.jsdelivr.net/gh/tatakanuta/tatakanuta@v1.0.0/asset/icon/search.png">
+  </a>
+
+  <a class="nav-icon pull-right" href="https://hanime1.me/user/190266/upload">
+    <img style="margin-top: -2px; margin-right: 5px;" height="20" src="https://cdn.jsdelivr.net/gh/tatakanuta/tatakanuta@v1.0.0/asset/icon/notification.png">
+  </a>
+
+  <a class="nav-icon pull-right" href="/previews/202303">
+    <img style="margin-top: -1px; margin-right: 6px;" height="16" src="https://cdn.jsdelivr.net/gh/tatakanuta/tatakanuta@v1.0.0/asset/icon/preview.png">
+  </a>
+</div></div>	</div>
+	<div id="main-nav-home" style="z-index: 10000; padding:0; padding-top: 3px; height: 50px; line-height: 40px; margin-bottom: 0px; background-color: black; position: relative;" class="hidden-sm hidden-md hidden-lg">
+
+	  <div style="padding: 0 10px; margin-bottom: -10px;">
+	    <a href="/" style="color: #e5e5e5;">
+	      <i class="material-icons-outlined" style="vertical-align: middle; margin-top: 0px; margin-left: 0px; font-size: 28px">chevron_left</i>
+	    </a>
+
+	    <form id="search-form" style="display: inline-block; margin-left: 7px; width: calc(100% - 39px); position: relative;">
+		    <input id="nav-query" name="nav-query" style="width: 100%; height: 36px; margin-top: 0px; vertical-align: middle; border-radius: 5px; background-color: #323231; border-color: #323231 !important; line-height: 35px; padding-left: 37px; font-size: 15px; padding-top: 4px" class="search-nav-bar" type="text" value="" placeholder="搜尋 Hanime1.me">
+		    <i class="material-icons" style="color: dimgray; position: absolute; top: 9px; left: 7px; font-size: 25px">search</i>
+		</form>
+	  </div>
+	</div>
+
+        <div style="overflow-x: hidden;">
+            
+            
+<form style="overflow-y: hidden;" id="hentai-form" action="https://hanime1.me/search" method="GET">
+
+	<div id="search-nav-desktop" style="margin-bottom: 35px; padding-top: 10px; padding-bottom: 10px" class="search-nav-wrapper hidden-xs">
+
+	<div class="dropdown no-select" style="display: inline-block; padding: 0;">
+		<button style="color: white; font-size: 30px; display: inline-block; margin-right: 20px; background-color: transparent; outline: 0; border: 0;;" type="button" data-toggle="modal" data-target="#genre-modal">
+			裏番
+			<i class="material-icons" style="vertical-align: middle; margin-top: -5px; margin-left: 0px;">arrow_drop_down</i>
+		</button>
+	</div>
+
+	<div class="dropdown no-select" style="display: inline-block; padding: 0; ">
+		<button style="outline:0; color:white; margin-top: -15px;" class="btn btn-secondary dropdown-toggle search-nav-desktop" type="button" data-toggle="modal" data-target="#tags">
+			標籤
+			<i class="material-icons" style="vertical-align: middle; margin-top: -3px; margin-left: 16px; margin-right: -7px">arrow_drop_down</i>
+		</button>
+	</div>
+
+	<div class="dropdown no-select" style="display: inline-block; padding: 0;">
+		<button style="outline:0; color:white; margin-top: -15px;" class="btn btn-secondary dropdown-toggle search-nav-desktop" type="button" data-toggle="modal" data-target="#sort-modal">
+			排序方式
+			<i class="material-icons" style="vertical-align: middle; margin-top: -3px; margin-left: 16px; margin-right: -7px">arrow_drop_down</i>
+		</button>
+	</div>
+
+	<div class="dropdown no-select" style="display: inline-block; padding: 0; ">
+		<button style="outline:0; color:white; margin-top: -15px;" class="btn btn-secondary dropdown-toggle search-nav-desktop" type="button" data-toggle="modal" data-target="#date-modal">
+			發佈日期
+			<i class="material-icons" style="vertical-align: middle; margin-top: -3px; margin-left: 16px; margin-right: -7px">arrow_drop_down</i>
+		</button>
+	</div>
+
+	<div style="display: inline-block; position: relative;">
+		<input id="query" name="query" type="text" value="" placeholder="搜索" class="search-input-desktop">
+		<div id="search-btn" class="search-btn" style="top:-12px; right: 1px; border-radius: 0px; background-color: rgba(255,255,255,.1); width: 34px;"><i style="margin-top: 4px; margin-left: 7px; color: rgba(255,255,255,0.5); font-size: 22px;" class="material-icons">search</i></div>
+	</div>
+
+	<input type="hidden" id="type" name="type" value="">
+
+	<div class="dropdown no-select search-nav-opacity hidden-md hidden-lg hidden-xl scrollable-search-type-button" style="display: inline-block; padding: 0; margin-left: 7px;">
+		<button style="outline:0; color:white; padding: 5px 11px 5px 12px; background-color: rgba(0,0,0,.1); margin-top: -15px;" class="btn btn-secondary dropdown-toggle search-nav-desktop search-type-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<span class="search-type-input">搜尋作者</span>
+				<img style="width: 15px; margin-top: -3px; margin-left: 12px" src="https://i.imgur.com/FQhHfF2.png">
+					</button>
+	</div>
+
+	<div class="dropdown no-select search-nav-opacity hidden-xs hidden-sm" style="margin-top: 19px; float: right; margin-right: -8px;">
+		<button style="outline:0; color:white; padding: 5px 11px 6px 12px; background-color: rgba(0,0,0,.1);" class="btn btn-secondary dropdown-toggle search-nav-desktop search-type-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<span class="search-type-input">搜尋作者</span>
+				<img style="width: 15px; margin-top: -3px; margin-left: 12px" src="https://i.imgur.com/FQhHfF2.png">
+					</button>
+	</div>
+</div>
+	<div id="search-nav-mobile" style="background-color: black; padding: 10px 10px 11px 10px; margin-top: 0px; margin-bottom: 8px; border: none;" class="search-nav-wrapper hidden-sm hidden-md hidden-lg hidden-xl">
+
+	<div style="color: white; display: inline-block; font-size: 17px; margin-right: 5px; font-weight: bold; cursor: pointer;" data-toggle="modal" data-target="#genre-modal">
+		裏番
+		<i class="material-icons" style="vertical-align: middle; margin-top: -3px; margin-left: -5px;">arrow_drop_down</i>
+	</div>
+
+	<div style="color: #e5e5e5; display: inline-block; font-size: 14px; margin-right: 5px; font-weight: bold; cursor: pointer; " data-toggle="modal" data-target="#tags">
+		標籤
+		<i class="material-icons" style="vertical-align: middle; margin-top: -4px; margin-left: -5px;">arrow_drop_down</i>
+	</div>
+
+	<div style="color: #e5e5e5; display: inline-block; font-size: 14px; margin-right: 5px; font-weight: bold; cursor: pointer;" data-toggle="modal" data-target="#sort-modal">
+		排序方式
+		<i class="material-icons" style="vertical-align: middle; margin-top: -4px; margin-left: -5px;">arrow_drop_down</i>
+	</div>
+
+	<div style="color: #e5e5e5; display: inline-block; font-size: 14px; margin-right: 5px; font-weight: bold; cursor: pointer; " data-toggle="modal" data-target="#date-modal">
+		發佈日期
+		<i class="material-icons" style="vertical-align: middle; margin-top: -4px; margin-left: -5px;">arrow_drop_down</i>
+	</div>
+
+	<div style="color: #e5e5e5; display: inline-block; font-size: 14px; font-weight: bold; cursor: pointer;" class="search-type-button">
+					<span class="search-type-input">搜尋作者</span>
+			<img style="width: 11px; margin-top: -3px; margin-left: 2px" src="https://i.imgur.com/FQhHfF2.png">
+			</div>
+</div>
+	<div id="genre-modal" class="modal" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="material-icons pull-left no-select modal-close-btn" data-dismiss="modal">close</span>
+        <h4 class="modal-title">影片類型</h4>
+      </div>
+      <div class="modal-body" style="padding: 0; text-align: center">
+        <input type="hidden" id="genre" name="genre" value="裏番">
+
+        	        <div style="line-height: 30px" class="simple-dropdown-item genre-option "><div class="hentai-sort-options">全部</div></div>
+			<hr style="margin: 0; border-color: #323434;">
+        	        <div style="line-height: 30px" class="simple-dropdown-item genre-option active"><div class="hentai-sort-options">裏番</div></div>
+			<hr style="margin: 0; border-color: #323434;">
+        	        <div style="line-height: 30px" class="simple-dropdown-item genre-option "><div class="hentai-sort-options">泡麵番</div></div>
+			<hr style="margin: 0; border-color: #323434;">
+        	        <div style="line-height: 30px" class="simple-dropdown-item genre-option "><div class="hentai-sort-options">Motion Anime</div></div>
+			<hr style="margin: 0; border-color: #323434;">
+        	        <div style="line-height: 30px" class="simple-dropdown-item genre-option "><div class="hentai-sort-options">3D動畫</div></div>
+			<hr style="margin: 0; border-color: #323434;">
+        	        <div style="line-height: 30px" class="simple-dropdown-item genre-option "><div class="hentai-sort-options">同人作品</div></div>
+			<hr style="margin: 0; border-color: #323434;">
+        	        <div style="line-height: 30px" class="simple-dropdown-item genre-option "><div class="hentai-sort-options">Cosplay</div></div>
+			<hr style="margin: 0; border-color: #323434;">
+        
+		<a style="color: white; text-decoration: none; line-height: 30px" href="/previews/202303"><div class="simple-dropdown-item genre-option">新番預告</div></a>
+		<hr style="margin: 0; border-color: #323434;">
+		<a style="color: white; text-decoration: none; line-height: 30px" href="https://hanime1.me/comics"><div class="simple-dropdown-item genre-option">H漫畫</div></a>
+		<hr class="hidden-sm hidden-md hidden-lg hidden-xl" style="margin: 0; border-color: #323434;">
+      </div>
+
+      <hr style="border-color: #323434; margin: 0">
+	  <div class="modal-footer">
+		<div data-dismiss="modal">取消</div>
+		<button class="pull-right btn btn-primary" type="submit">顯示搜索結果</button>
+	  </div>
+    </div>
+  </div>
+</div>
+	<div id="tags" class="modal" role="dialog">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <span class="material-icons pull-left no-select modal-close-btn" data-dismiss="modal">close</span>
+	        <h4 class="modal-title">內容標籤</h4>
+	      </div>
+	      <div class="modal-body" style="overflow-y: scroll; padding-top: 0px;">
+	      	<div style="background-color: #323434; margin: 0 -15px 20px -15px; padding: 5px 15px 0px 15px;">
+				<h5 style="font-weight: bold">
+			  		廣泛配對
+			      	<label class="hentai-switch" style="float: right">
+						<input type="checkbox" name="broad" id="broad">
+						<span class="hentai-slider round"></span>
+					</label>
+				</h5>
+			    <p style="color: gray; padding-bottom: 12px; font-size: 12px; padding-right: 60px; font-weight: normal;">較多結果，較不精準。配對所有包含任何一個選擇的標籤的影片，而非全部標籤。</p>
+		    </div>
+
+		    <h5 style="margin-top: 20px; margin-bottom: 15px; font-weight: bold">影片屬性</h5>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="無碼">
+				  <span class="checkmark">無碼</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="AI解碼">
+				  <span class="checkmark">AI解碼</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="中文字幕">
+				  <span class="checkmark">中文字幕</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="1080p">
+				  <span class="checkmark">1080p</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="60FPS">
+				  <span class="checkmark">60FPS</span>
+				</label>
+	        
+	        <h5 style="margin-top: 15px; margin-bottom: 15px; font-weight: bold">人物關係</h5>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="近親">
+				  <span class="checkmark">近親</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="姐">
+				  <span class="checkmark">姐</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="妹">
+				  <span class="checkmark">妹</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="母">
+				  <span class="checkmark">母</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="女兒">
+				  <span class="checkmark">女兒</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="師生">
+				  <span class="checkmark">師生</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="情侶">
+				  <span class="checkmark">情侶</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="青梅竹馬">
+				  <span class="checkmark">青梅竹馬</span>
+				</label>
+	        
+	        <h5 style="margin-top: 15px; margin-bottom: 15px; font-weight: bold">角色設定</h5>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="JK">
+				  <span class="checkmark">JK</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="處女">
+				  <span class="checkmark">處女</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="御姐">
+				  <span class="checkmark">御姐</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="熟女">
+				  <span class="checkmark">熟女</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="人妻">
+				  <span class="checkmark">人妻</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="老師">
+				  <span class="checkmark">老師</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="女醫護士">
+				  <span class="checkmark">女醫護士</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="OL">
+				  <span class="checkmark">OL</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="大小姐">
+				  <span class="checkmark">大小姐</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="偶像">
+				  <span class="checkmark">偶像</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="女僕">
+				  <span class="checkmark">女僕</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="巫女">
+				  <span class="checkmark">巫女</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="修女">
+				  <span class="checkmark">修女</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="風俗娘">
+				  <span class="checkmark">風俗娘</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="公主">
+				  <span class="checkmark">公主</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="女戰士">
+				  <span class="checkmark">女戰士</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="魔法少女">
+				  <span class="checkmark">魔法少女</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="異種族">
+				  <span class="checkmark">異種族</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="妖精">
+				  <span class="checkmark">妖精</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="魔物娘">
+				  <span class="checkmark">魔物娘</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="獸娘">
+				  <span class="checkmark">獸娘</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="碧池">
+				  <span class="checkmark">碧池</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="痴女">
+				  <span class="checkmark">痴女</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="不良少女">
+				  <span class="checkmark">不良少女</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="傲嬌">
+				  <span class="checkmark">傲嬌</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="病嬌">
+				  <span class="checkmark">病嬌</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="無口">
+				  <span class="checkmark">無口</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="偽娘">
+				  <span class="checkmark">偽娘</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="扶他">
+				  <span class="checkmark">扶他</span>
+				</label>
+	        
+	        <h5 style="margin-top: 15px; margin-bottom: 15px; font-weight: bold">外貌身材</h5>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="短髮">
+				  <span class="checkmark">短髮</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="馬尾">
+				  <span class="checkmark">馬尾</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="雙馬尾">
+				  <span class="checkmark">雙馬尾</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="巨乳">
+				  <span class="checkmark">巨乳</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="貧乳">
+				  <span class="checkmark">貧乳</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="黑皮膚">
+				  <span class="checkmark">黑皮膚</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="眼鏡娘">
+				  <span class="checkmark">眼鏡娘</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="獸耳">
+				  <span class="checkmark">獸耳</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="美人痣">
+				  <span class="checkmark">美人痣</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="肌肉女">
+				  <span class="checkmark">肌肉女</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="白虎">
+				  <span class="checkmark">白虎</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="大屌">
+				  <span class="checkmark">大屌</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="水手服">
+				  <span class="checkmark">水手服</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="體操服">
+				  <span class="checkmark">體操服</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="泳裝">
+				  <span class="checkmark">泳裝</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="比基尼">
+				  <span class="checkmark">比基尼</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="和服">
+				  <span class="checkmark">和服</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="兔女郎">
+				  <span class="checkmark">兔女郎</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="圍裙">
+				  <span class="checkmark">圍裙</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="啦啦隊">
+				  <span class="checkmark">啦啦隊</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="旗袍">
+				  <span class="checkmark">旗袍</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="絲襪">
+				  <span class="checkmark">絲襪</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="吊襪帶">
+				  <span class="checkmark">吊襪帶</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="熱褲">
+				  <span class="checkmark">熱褲</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="迷你裙">
+				  <span class="checkmark">迷你裙</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="性感內衣">
+				  <span class="checkmark">性感內衣</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="丁字褲">
+				  <span class="checkmark">丁字褲</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="高跟鞋">
+				  <span class="checkmark">高跟鞋</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="淫紋">
+				  <span class="checkmark">淫紋</span>
+				</label>
+	        
+	        <h5 style="margin-top: 15px; margin-bottom: 15px; font-weight: bold">故事劇情</h5>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="純愛">
+				  <span class="checkmark">純愛</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="戀愛喜劇">
+				  <span class="checkmark">戀愛喜劇</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="後宮">
+				  <span class="checkmark">後宮</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="開大車">
+				  <span class="checkmark">開大車</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="公眾場合">
+				  <span class="checkmark">公眾場合</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="NTR">
+				  <span class="checkmark">NTR</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="精神控制">
+				  <span class="checkmark">精神控制</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="藥物">
+				  <span class="checkmark">藥物</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="痴漢">
+				  <span class="checkmark">痴漢</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="阿嘿顏">
+				  <span class="checkmark">阿嘿顏</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="精神崩潰">
+				  <span class="checkmark">精神崩潰</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="獵奇">
+				  <span class="checkmark">獵奇</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="BDSM">
+				  <span class="checkmark">BDSM</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="綑綁">
+				  <span class="checkmark">綑綁</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="眼罩">
+				  <span class="checkmark">眼罩</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="項圈">
+				  <span class="checkmark">項圈</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="調教">
+				  <span class="checkmark">調教</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="異物插入">
+				  <span class="checkmark">異物插入</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="肉便器">
+				  <span class="checkmark">肉便器</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="胃凸">
+				  <span class="checkmark">胃凸</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="強制">
+				  <span class="checkmark">強制</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="逆強制">
+				  <span class="checkmark">逆強制</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="女王樣">
+				  <span class="checkmark">女王樣</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="母女丼">
+				  <span class="checkmark">母女丼</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="姐妹丼">
+				  <span class="checkmark">姐妹丼</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="凌辱">
+				  <span class="checkmark">凌辱</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="出軌">
+				  <span class="checkmark">出軌</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="攝影">
+				  <span class="checkmark">攝影</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="性轉換">
+				  <span class="checkmark">性轉換</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="百合">
+				  <span class="checkmark">百合</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="耽美">
+				  <span class="checkmark">耽美</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="異世界">
+				  <span class="checkmark">異世界</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="怪獸">
+				  <span class="checkmark">怪獸</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="世界末日">
+				  <span class="checkmark">世界末日</span>
+				</label>
+	        
+	        <h5 style="margin-top: 15px; margin-bottom: 15px; font-weight: bold">性交體位</h5>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="手交">
+				  <span class="checkmark">手交</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="指交">
+				  <span class="checkmark">指交</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="乳交">
+				  <span class="checkmark">乳交</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="肛交">
+				  <span class="checkmark">肛交</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="腳交">
+				  <span class="checkmark">腳交</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="拳交">
+				  <span class="checkmark">拳交</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="3P">
+				  <span class="checkmark">3P</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="群交">
+				  <span class="checkmark">群交</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="口交">
+				  <span class="checkmark">口交</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="口爆">
+				  <span class="checkmark">口爆</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="吞精">
+				  <span class="checkmark">吞精</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="舔蛋蛋">
+				  <span class="checkmark">舔蛋蛋</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="舔穴">
+				  <span class="checkmark">舔穴</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="69">
+				  <span class="checkmark">69</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="自慰">
+				  <span class="checkmark">自慰</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="腋毛">
+				  <span class="checkmark">腋毛</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="腋交">
+				  <span class="checkmark">腋交</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="舔腋下">
+				  <span class="checkmark">舔腋下</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="內射">
+				  <span class="checkmark">內射</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="顏射">
+				  <span class="checkmark">顏射</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="雙洞齊下">
+				  <span class="checkmark">雙洞齊下</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="懷孕">
+				  <span class="checkmark">懷孕</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="噴奶">
+				  <span class="checkmark">噴奶</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="放尿">
+				  <span class="checkmark">放尿</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="排便">
+				  <span class="checkmark">排便</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="顏面騎乘">
+				  <span class="checkmark">顏面騎乘</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="車震">
+				  <span class="checkmark">車震</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="性玩具">
+				  <span class="checkmark">性玩具</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="毒龍鑽">
+				  <span class="checkmark">毒龍鑽</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="觸手">
+				  <span class="checkmark">觸手</span>
+				</label>
+	        	        	<label class="hentai-tags-wrapper">
+				  <input name="tags[]" type="checkbox" value="頸手枷">
+				  <span class="checkmark">頸手枷</span>
+				</label>
+	        	      </div>
+	      <hr style="border-color: #323434; margin: 0">
+	      <div class="modal-footer">
+			<div data-dismiss="modal">取消</div>
+			<button class="pull-right btn btn-primary" type="submit">顯示搜索結果</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div id="sort-modal" class="modal" role="dialog">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <span class="material-icons pull-left no-select modal-close-btn" data-dismiss="modal">close</span>
+	        <h4 class="modal-title">排序方式</h4>
+	      </div>
+	      <div class="modal-body" style="padding: 0; text-align: center">
+	        <input type="hidden" id="sort" name="sort" value="">
+
+	        		        	        
+	        		        <div class="simple-dropdown-item hentai-sort-options-wrapper "><div class="hentai-sort-options">最新上市</div></div>
+				<hr class="" style="margin: 0; border-color: #323434;">
+	        		        <div class="simple-dropdown-item hentai-sort-options-wrapper "><div class="hentai-sort-options">最新上傳</div></div>
+				<hr class="" style="margin: 0; border-color: #323434;">
+	        		        <div class="simple-dropdown-item hentai-sort-options-wrapper "><div class="hentai-sort-options">本日排行</div></div>
+				<hr class="" style="margin: 0; border-color: #323434;">
+	        		        <div class="simple-dropdown-item hentai-sort-options-wrapper "><div class="hentai-sort-options">本週排行</div></div>
+				<hr class="" style="margin: 0; border-color: #323434;">
+	        		        <div class="simple-dropdown-item hentai-sort-options-wrapper "><div class="hentai-sort-options">本月排行</div></div>
+				<hr class="" style="margin: 0; border-color: #323434;">
+	        		        <div class="simple-dropdown-item hentai-sort-options-wrapper "><div class="hentai-sort-options">觀看次數</div></div>
+				<hr class="" style="margin: 0; border-color: #323434;">
+	        		        <div class="simple-dropdown-item hentai-sort-options-wrapper "><div class="hentai-sort-options">他們在看</div></div>
+				<hr class="hidden-sm hidden-md hidden-lg hidden-xl" style="margin: 0; border-color: #323434;">
+	        	      </div>
+	      <hr style="border-color: #323434; margin: 0">
+	      <div class="modal-footer">
+	      	<div data-dismiss="modal">取消</div>
+			<button class="pull-right btn btn-primary" type="submit">顯示搜索結果</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div id="date-modal" class="modal" role="dialog">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <span class="material-icons pull-left no-select modal-close-btn" data-dismiss="modal">close</span>
+	        <h4 class="modal-title">發佈日期</h4>
+	      </div>
+	      <div class="modal-body" style="padding: 24px 15px;">
+			<div class="form-group">
+				<select class="form-control" id="year" name="year" style="width: calc(50% - 5px); display: inline-block; float: left;">
+					<option value="">全部年份...</option>
+											<option value="2022">2022年</option>
+											<option value="2021">2021年</option>
+											<option value="2020">2020年</option>
+											<option value="2019">2019年</option>
+											<option value="2018">2018年</option>
+											<option value="2017">2017年</option>
+											<option value="2016">2016年</option>
+											<option value="2015">2015年</option>
+											<option value="2014">2014年</option>
+											<option value="2013">2013年</option>
+											<option value="2012">2012年</option>
+											<option value="2011">2011年</option>
+											<option value="2010">2010年</option>
+											<option value="2009">2009年</option>
+											<option value="2008">2008年</option>
+											<option value="2007">2007年</option>
+											<option value="2006">2006年</option>
+											<option value="2005">2005年</option>
+											<option value="2004">2004年</option>
+											<option value="2003">2003年</option>
+											<option value="2002">2002年</option>
+											<option value="2001">2001年</option>
+											<option value="2000">2000年</option>
+											<option value="1999">1999年</option>
+											<option value="1998">1998年</option>
+											<option value="1997">1997年</option>
+											<option value="1996">1996年</option>
+											<option value="1995">1995年</option>
+											<option value="1994">1994年</option>
+											<option value="1993">1993年</option>
+											<option value="1992">1992年</option>
+											<option value="1991">1991年</option>
+											<option value="1990">1990年</option>
+									</select>
+				<select class="form-control" id="month" name="month" style="width: calc(50% - 5px); display: inline-block; float: right;">
+					<option value="">全部月份...</option>
+											<option value="1">1月</option>
+											<option value="2">2月</option>
+											<option value="3">3月</option>
+											<option value="4">4月</option>
+											<option value="5">5月</option>
+											<option value="6">6月</option>
+											<option value="7">7月</option>
+											<option value="8">8月</option>
+											<option value="9">9月</option>
+											<option value="10">10月</option>
+											<option value="11">11月</option>
+											<option value="12">12月</option>
+									</select>
+			</div>
+	      </div>
+	      <hr style="border-color: #323434; margin: 0">
+	      <div class="modal-footer">
+			<div data-dismiss="modal">取消</div>
+			<button class="pull-right btn btn-primary" type="submit">顯示搜索結果</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div id="search-content-padding-desktop" class="hidden-xs"></div>
+	<div id="search-content-padding-mobile" class="hidden-sm hidden-md hidden-lg hidden-xl"></div>
+
+	<div id="home-rows-wrapper" class="search-rows-wrapper">
+
+		<div class="hidden-sm hidden-md hidden-lg" style="text-align: center; margin-top: 0px; margin-bottom: -22px;">
+			<script type="application/javascript">
+    var ad_idzone = "4396576",
+    ad_width = "300",
+    ad_height = "100"
+</script>
+<script type="application/javascript" src="https://a.realsrv.com/ads.js"></script>
+<noscript>
+  <iframe src="https://syndication.realsrv.com/ads-iframe-display.php?idzone=4396576&output=noscript&type=300x100" width="300" height="100" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+</noscript>		</div>
+
+		<div style="margin-bottom: -12px;" class="search-pagination mobile-search-pagination hidden-sm hidden-md hidden-lg"><ul class="pagination" role="navigation">
+        
+                    <li class="page-item disabled" aria-disabled="true" aria-label="« Previous">
+                <span class="page-link" aria-hidden="true">‹</span>
+            </li>
+        
+        
+                    
+            
+            
+                                                                        <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                                                                                <li class="page-item"><a class="page-link" href="?genre=%E8%A3%8F%E7%95%AA&amp;page=2">2</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="?genre=%E8%A3%8F%E7%95%AA&amp;page=3">3</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="?genre=%E8%A3%8F%E7%95%AA&amp;page=4">4</a></li>
+                                                                    
+                            <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li>
+            
+            
+                                
+            
+            
+                                                                        <li class="page-item"><a class="page-link" href="?genre=%E8%A3%8F%E7%95%AA&amp;page=58">58</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="?genre=%E8%A3%8F%E7%95%AA&amp;page=59">59</a></li>
+                                                        
+        
+                    <li class="page-item">
+                <a class="page-link" href="?genre=%E8%A3%8F%E7%95%AA&amp;page=2" rel="next" aria-label="Next »">›</a>
+            </li>
+            </ul>
+</div>
+
+				  				    <div class="home-rows-videos-wrapper" style="white-space: normal; margin-left: -2px; margin-right: -2px;">
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39539">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/nGb9HiS.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">母乳醬想要噴出來。 2</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39538">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/acQPoJp.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">母乳醬想要噴出來。 1</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39537">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/RFQbbq3.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">班上只有我一個男生!? 1</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39533">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/hnAyLQG.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">魔女最後和那個客人一起。。。 1</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39535">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/zmwoxaI.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">於是我就被老師給... 3</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39536">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/S4HEWVS.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">贖罪日 3</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39534">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/afS4FfH.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">露出系女大學生克莉絲提亞 2</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39614">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/sNXxabk.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">青春搶奪 1</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=38205">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/Np7Fhg6.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">迷情2</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39531">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/kxENn3A.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">妹妹是辣妹真是可愛 1</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39473">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/HBlCTfb.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">我交到炮友的理由 6</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39472">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/0sn28kw.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">我交到炮友的理由 5</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39471">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/0gSrlVC.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">3Piece</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39469">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/U1eoCqx.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">你所不知道的童話故事 1</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39613">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/fCTu8yG.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">後宮狂熱 3</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39468">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/L3i9R0L.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">援助交配 8</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39470">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/lHGgQI6.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">下克上 1</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39467">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/LloHerD.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">雌性友人 2</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39590">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/qLtaqGP.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">獸娘通信 ～貓娘妮雅～</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39311">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/2oMbYup.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">小真的開發日記 4</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39310">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/8E4G5Je.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">小真的開發日記 3</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39306">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/OmjQkYr.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">既然來了異世界就用色批技能來全力謳歌 2</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39305">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/zHr0B5O.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">既然來了異世界就用色批技能來全力謳歌 1</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39307">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/yY9p0Fu.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">露出系女大學生克莉絲提亞 1</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39309">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/iIJAXwU.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">好色上班族2 第2話</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39308">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/d9jkFrr.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">媽媽喝罵 1</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39304">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/MvCDBxq.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">雷光神姬眾神的魔法大戰 2</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39193">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/b3Jf7Yh.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">鍊精術士克萊特的H榨精物語 2</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39191">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/P3IZMTg.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">色情遊戲能用來解決所有問題！ 2</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39303">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/DkMA35d.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">我交到炮友的理由 4</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39302">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/ksm3Trr.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">我交到炮友的理由 3</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39194">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/vn9XggZ.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">懲戒2 第2話</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39192">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/2MAyxU4.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">援助交配 7</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39190">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/CIPwEsD.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">雌性友人 1</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=38667">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/KDmS93M.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">Abandon -不射夠100次就出不去的不可思議的教室- 2</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39189">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/xYu1np2.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">我是嬌小魅魔的忠實僕人 2</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39123">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/SrbeEUn.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">召喚魅魔結果義母來了!? 2</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39122">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/XLsr0e1.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">召喚魅魔結果義母來了!? 1</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39283">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/1pnGVqq.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">羞耻+ 2</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39282">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/R9ZxQgf.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">好色上班族2 第1話</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39119">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/l6AszLn.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">狐娘的色情旅館 2</div>
+					        </div>
+					    </a>
+				    				      	<a style="text-decoration: none;" href="https://hanime1.me/watch?v=39118">
+					        <div class="home-rows-videos-div search-videos" style="position: relative; display: inline-block;">
+					          <img style="border-radius: 3px" src="https://cdn.jsdelivr.net/gh/shikanimage/shikanimage@v1.0.0/asset/cover/NNhhwDS.jpg">
+					          <div class="home-rows-videos-title" style="position:absolute; bottom:0; left:0; white-space: initial; overflow: hidden;text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; color: white; width: 100%; padding: 2px 6px; background: linear-gradient(to bottom, transparent 0%, black 120%); border-radius: 3px">Love me「楓與鈴」 2</div>
+					        </div>
+					    </a>
+				    				</div>
+					
+		<div class="search-hentai-pagination-desktop-margin search-pagination hidden-xs "><ul class="pagination" role="navigation">
+        
+                    <li class="page-item disabled" aria-disabled="true" aria-label="« Previous">
+                <span class="page-link" aria-hidden="true">‹</span>
+            </li>
+        
+        
+                    
+            
+            
+                                                                        <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                                                                                <li class="page-item"><a class="page-link" href="?genre=%E8%A3%8F%E7%95%AA&amp;page=2">2</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="?genre=%E8%A3%8F%E7%95%AA&amp;page=3">3</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="?genre=%E8%A3%8F%E7%95%AA&amp;page=4">4</a></li>
+                                                                    
+                            <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li>
+            
+            
+                                
+            
+            
+                                                                        <li class="page-item"><a class="page-link" href="?genre=%E8%A3%8F%E7%95%AA&amp;page=58">58</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="?genre=%E8%A3%8F%E7%95%AA&amp;page=59">59</a></li>
+                                                        
+        
+                    <li class="page-item">
+                <a class="page-link" href="?genre=%E8%A3%8F%E7%95%AA&amp;page=2" rel="next" aria-label="Next »">›</a>
+            </li>
+            </ul>
+</div>
+		<div style="margin-top: -25px;" class="search-pagination mobile-search-pagination hidden-sm hidden-md hidden-lg "><ul class="pagination" role="navigation">
+        
+                    <li class="page-item disabled" aria-disabled="true" aria-label="« Previous">
+                <span class="page-link" aria-hidden="true">‹</span>
+            </li>
+        
+        
+                    
+            
+            
+                                                                        <li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
+                                                                                <li class="page-item"><a class="page-link" href="?genre=%E8%A3%8F%E7%95%AA&amp;page=2">2</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="?genre=%E8%A3%8F%E7%95%AA&amp;page=3">3</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="?genre=%E8%A3%8F%E7%95%AA&amp;page=4">4</a></li>
+                                                                    
+                            <li class="page-item disabled" aria-disabled="true"><span class="page-link">...</span></li>
+            
+            
+                                
+            
+            
+                                                                        <li class="page-item"><a class="page-link" href="?genre=%E8%A3%8F%E7%95%AA&amp;page=58">58</a></li>
+                                                                                <li class="page-item"><a class="page-link" href="?genre=%E8%A3%8F%E7%95%AA&amp;page=59">59</a></li>
+                                                        
+        
+                    <li class="page-item">
+                <a class="page-link" href="?genre=%E8%A3%8F%E7%95%AA&amp;page=2" rel="next" aria-label="Next »">›</a>
+            </li>
+            </ul>
+</div>
+
+		<div class="hidden-xs" style="text-align: center; margin-top: 15px; padding-bottom: -100px; height: 275px; overflow: hidden;">
+	<div style="color: white; margin-bottom: 3px; padding: 2px 0px">點點廣告，贊助我們（●´∀｀）ノ♡</div>
+	<script type="application/javascript">
+    var ad_idzone = "4372838",
+    ad_width = "300",
+    ad_height = "250"
+</script>
+<script type="application/javascript" src="https://a.realsrv.com/ads.js"></script>
+<noscript>
+  <iframe src="https://syndication.realsrv.com/ads-iframe-display.php?idzone=4372838&output=noscript&type=300x250" width="300" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+</noscript>
+	<span style="vertical-align: top; margin-top: 5px;">
+		<!-- JuicyAds v3.1 -->
+		<script type="text/javascript" data-cfasync="false" async="" src="https://poweredby.jads.co/js/jads.js"></script>
+		<ins id="919232" data-width="300" data-height="262"></ins>
+		<script type="text/javascript" data-cfasync="false" async="">(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':919232});</script>
+		<!--JuicyAds END-->
+
+		<script type="application/javascript">
+		    var ad_idzone = "4372838",
+		    ad_width = "300",
+		    ad_height = "250";
+		</script>
+	</span>
+
+	<script type="application/javascript">
+    var ad_idzone = "4372838",
+    ad_width = "300",
+    ad_height = "250"
+</script>
+<script type="application/javascript" src="https://a.realsrv.com/ads.js"></script>
+<noscript>
+  <iframe src="https://syndication.realsrv.com/ads-iframe-display.php?idzone=4372838&output=noscript&type=300x250" width="300" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+</noscript></div>
+		<span class="hidden-xs"><br><br><br></span>
+
+		<div class="hidden-sm hidden-md hidden-lg" style="text-align: center; margin-top: -12px">
+			<!-- JuicyAds v3.1 -->
+			<script type="text/javascript" data-cfasync="false" async="" src="https://poweredby.jads.co/js/jads.js"></script>
+			<ins id="941419" data-width="300" data-height="112"></ins>
+			<script type="text/javascript" data-cfasync="false" async="">(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':941419});</script>
+			<!--JuicyAds END-->
+		</div>
+	</div>
+</form>
+
+<script>
+	var urlParams = new URLSearchParams(window.location.search);
+	// $(".mobile-search-pagination .pagination .disabled").addClass('hidden-xs');
+	if (urlParams.has('page') && urlParams.get('page') > 2) {
+		$(".mobile-search-pagination .pagination .page-item:nth-child(3)").addClass('hidden');
+	}
+	if (urlParams.has('page') && urlParams.get('page') < 59 - 1) {
+		$(".mobile-search-pagination .pagination .page-item:nth-last-child(3)").addClass('hidden');
+	}
+</script>
+
+        </div>
+
+        <!-- The actual snackbar -->
+        <div id="snackbar">Some text some message..</div>
+    </div>
+
+    <!-- CSS Styles Deferred -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+            <!-- Scripts -->
+        <script src="/js/app.js?id=2ca6c887b10e0bedf1c4"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-125786247-2"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-125786247-2');
+        </script>
+
+        <!-- Google Adsense -->
+        <script data-ad-client="ca-pub-4485968980278243" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+
+        <script data-cfasync="false" type="text/javascript">(function(s,o,l,v,e,d){if(s[o]==null&&s[l+e]){s[o]="loading";s[l+e](d,l=function(){s[o]="complete";s[v+e](d,l,!1)},!1)}})(document,"readyState","add","remove","EventListener","DOMContentLoaded");(function(){var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.impactserving.com/Scripts/infinity.js.aspx?guid=75b4ac7f-9a66-41df-8b31-822964ff008b";s.id="infinity";s.setAttribute("data-guid","75b4ac7f-9a66-41df-8b31-822964ff008b");s.setAttribute("data-version","async");var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(s,e)})();</script>
+    
+
+</body>
+帮我写一个xpath获取前5个作品的封面
