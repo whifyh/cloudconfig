@@ -1,2 +1,1 @@
-[Adblock Plus 2.0]
-##search.bilibili.com#?#div.bili-video-card:-abp-has(> div.bili-video-card__wrap.__scale-wrap > div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > p.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:-abp-contains(图灵))
+[ABP] ! Title: Block wang videos on bilibili ! Homepage: https://github.com/assistant/block-wang-videos ! Expires: 1 days ! Version: 1.0 ! Last modified: 2023-07-16 bilibili.com##.video-item:has-text(/图灵/i)
