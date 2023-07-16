@@ -1,2 +1,2 @@
 [Adblock Plus 2.0]
-search.bilibili.com#?#div.bili-video-card:-abp-has(> div.bili-video-card__wrap.__scale-wrap > div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > p.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:-abp-contains(【作者名】))
+search.bilibili.com#?#div.bili-video-card:-abp-has(> div.bili-video-card__wrap.__scale-wrap > div.bili-video-card__info.__scale-disable > div.bili-video-card__info--right > p.bili-video-card__info--bottom > a.bili-video-card__info--owner > span.bili-video-card__info--author:-abp-contains(图灵))
